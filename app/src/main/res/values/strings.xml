@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name_text">Jose Garza</string>
+    <string name="star_image">Star Image</string>
+</resources>
