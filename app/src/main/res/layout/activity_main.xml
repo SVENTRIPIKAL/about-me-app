@@ -8,24 +8,40 @@
 
     <TextView
         android:id="@+id/banner_text"
-        android:text="@string/app_name"
         style="@style/BannerStyle"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/banner_height" />
+        android:layout_height="@dimen/banner_height"
+        android:text="@string/app_name" />
 
     <TextView
         android:id="@+id/name_text"
-        android:text="@string/name_text"
         style="@style/NameStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/name_text" />
 
     <ImageView
         android:id="@+id/star_image"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:contentDescription="@string/star_image"
-        android:layout_marginTop="@dimen/layout_margin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:contentDescription="@string/star_image"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/bio_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingMultiplier="4.5"
+            android:paddingHorizontal="@dimen/text_bio_padding"
+            android:text="@string/text_bio" />
+    </ScrollView>
 
 </LinearLayout>
