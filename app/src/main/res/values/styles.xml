@@ -23,6 +23,8 @@
         <item name="android:textSize">@dimen/textSize_16sp</item>
         <item name="android:inputType">text</item>
         <item name="android:ems">10</item>
+        <item name="android:layout_marginVertical">@dimen/layoutMargin_2dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:hint">@string/editText_hint</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
@@ -33,6 +35,7 @@
         <item name="android:textSize">@dimen/textSize_16sp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginVertical">@dimen/layoutMargin_2dp</item>
         <item name="android:buttonCornerRadius">@dimen/viewCornerRadius_5dp</item>
         <item name="android:elevation">@dimen/viewElevation_10dp</item>
     </style>

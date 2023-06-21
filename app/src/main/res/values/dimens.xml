@@ -10,4 +10,7 @@
     <dimen name="lineSpacingMultiplier_3">3</dimen>
     <dimen name="viewCornerRadius_5dp">5dp</dimen>
     <dimen name="viewElevation_10dp">10dp</dimen>
+    <dimen name="layoutWidth_250dp">250dp</dimen>
+    <dimen name="layoutHeight_50dp">50dp</dimen>
+    <dimen name="layoutMargin_2dp">2dp</dimen>
 </resources>

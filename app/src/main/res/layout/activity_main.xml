@@ -31,8 +31,8 @@
         <EditText
             android:id="@+id/editTextLine"
             style="@style/EditTextStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/layoutWidth_250dp"
+            android:layout_height="@dimen/layoutHeight_50dp"
             android:inputType="text"
             android:singleLine="true"
             tools:ignore="Autofill,LabelFor" />
@@ -42,9 +42,7 @@
             style="@style/ButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_doneButton"
-            app:cornerRadius="@dimen/viewCornerRadius_5dp"
-            app:elevation="@dimen/viewElevation_10dp" />
+            android:text="@string/text_doneButton" />
 
         <ScrollView
             android:id="@+id/bio_scrollView"
