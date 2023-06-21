@@ -8,7 +8,6 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/banner_text"
         style="@style/BannerStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/viewHeight_60dp"
@@ -21,7 +20,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/name_text"
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +27,7 @@
 
 
         <EditText
-            android:id="@+id/editTextLine"
+            android:id="@+id/editTextView"
             style="@style/EditTextStyle"
             android:layout_width="@dimen/layoutWidth_250dp"
             android:layout_height="@dimen/layoutHeight_50dp"
@@ -38,14 +36,14 @@
             tools:ignore="Autofill,LabelFor" />
 
         <Button
-            android:id="@+id/button_done"
+            android:id="@+id/doneButton"
             style="@style/ButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_doneButton" />
 
         <TextView
-            android:id="@+id/nickNamePopup"
+            android:id="@+id/nicknamePopupView"
             style="@style/EditTextStyle"
             android:layout_width="@dimen/layoutWidth_250dp"
             android:layout_height="@dimen/layoutHeight_50dp"
@@ -53,7 +51,6 @@
             android:visibility="gone" />
 
         <ScrollView
-            android:id="@+id/bio_scrollView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal">
@@ -65,14 +62,12 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <ImageView
-                    android:id="@+id/star_image"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/star_image"
                     app:srcCompat="@android:drawable/btn_star_big_on" />
 
                 <TextView
-                    android:id="@+id/bio_text"
                     style="@style/BioStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
