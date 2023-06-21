@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="banner_height">75dp</dimen>
-    <dimen name="banner_paddingStart">20dp</dimen>
-    <dimen name="text_size">20sp</dimen>
-    <dimen name="small_padding">8dp</dimen>
-    <dimen name="layout_margin">16dp</dimen>
-    <dimen name="bioText_size">16sp</dimen>
-    <dimen name="bioText_padding">16dp</dimen>
-    <dimen name="bioText_lineSpacingMultiplier">3</dimen>
+    <dimen name="textSize_16sp">16sp</dimen>
+    <dimen name="textSize_20sp">20sp</dimen>
+    <dimen name="viewPadding_8dp">8dp</dimen>
+    <dimen name="viewPadding_16dp">16dp</dimen>
+    <dimen name="viewPadding_20dp">20dp</dimen>
+    <dimen name="viewHeight_60dp">60dp</dimen>
+    <dimen name="layoutMargin_16dp">16dp</dimen>
+    <dimen name="lineSpacingMultiplier_3">3</dimen>
+    <dimen name="viewCornerRadius_5dp">5dp</dimen>
+    <dimen name="viewElevation_10dp">10dp</dimen>
 </resources>
