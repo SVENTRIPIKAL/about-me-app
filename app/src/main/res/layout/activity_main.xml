@@ -22,6 +22,15 @@
         android:text="@string/name_text" />
 
 
+    <EditText
+        android:id="@+id/editTextLine"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        tools:ignore="Autofill,LabelFor" />
+
     <ScrollView
         android:id="@+id/bio_scrollView"
         android:layout_width="match_parent"

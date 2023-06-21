@@ -3,5 +3,6 @@
     <string name="name_text">Jose Garza</string>
     <string name="star_image">Star Image</string>
     <string name="text_bio"><![CDATA[An early career programming enthusiast who enjoys developing Android applications with Kotlin & Jetpack Compose. Main focus is building small mobile projects which I find both interesting and beneficial to my understanding of android development, while ultimately producing something of mutual significance to others. Currently focusing on Mobile & Tablet development with Android Jetpack & Jetpack Compose in Kotlin, but look forward to also learning Wear OS, Android TV, and/or Automotive application development in the near future.]]></string>
+    <string name="editText_hint">Enter Your Nickname Here</string>
 
 </resources>
