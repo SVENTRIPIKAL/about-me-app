@@ -5,5 +5,7 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="small_padding">8dp</dimen>
     <dimen name="layout_margin">16dp</dimen>
-    <dimen name="text_bio_padding">16dp</dimen>
+    <dimen name="bioText_size">16sp</dimen>
+    <dimen name="bioText_padding">16dp</dimen>
+    <dimen name="bioText_lineSpacingMultiplier">3</dimen>
 </resources>
