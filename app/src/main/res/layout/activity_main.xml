@@ -44,6 +44,14 @@
             android:layout_height="wrap_content"
             android:text="@string/text_doneButton" />
 
+        <TextView
+            android:id="@+id/nickNamePopup"
+            style="@style/EditTextStyle"
+            android:layout_width="@dimen/layoutWidth_250dp"
+            android:layout_height="@dimen/layoutHeight_50dp"
+            android:text=""
+            android:visibility="gone" />
+
         <ScrollView
             android:id="@+id/bio_scrollView"
             android:layout_width="match_parent"
@@ -73,6 +81,7 @@
             </LinearLayout>
 
         </ScrollView>
+
     </LinearLayout>
 
 

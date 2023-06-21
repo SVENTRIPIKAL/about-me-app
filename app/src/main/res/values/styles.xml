@@ -25,6 +25,7 @@
         <item name="android:ems">10</item>
         <item name="android:layout_marginVertical">@dimen/layoutMargin_2dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
         <item name="android:hint">@string/editText_hint</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
