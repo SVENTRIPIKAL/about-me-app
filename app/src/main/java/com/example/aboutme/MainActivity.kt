@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         // reference any layouts/views as objects if necessary
         // manipulate data via as-needed references
         // update data class via binder with new object data created in activity
-        binding.myDataClass = nameObject
+        binding.myName = nameObject
 
         // button onClickListener
         binding.doneButton.setOnClickListener {
@@ -61,8 +61,9 @@ class MainActivity : AppCompatActivity() {
             binding.apply {
 
                 // transfer editText.text to popUpView.text via data class object
-                myDataClass = nameObject.copy(
-                    myNickName = editTextView.editableText.toString()
+                // both of myName data class variables should be initialized now
+                myName = nameObject.copy(
+                    nickName = editTextView.editableText.toString()
                 )
 
                 // remove button & editText visibility
@@ -70,8 +71,11 @@ class MainActivity : AppCompatActivity() {
                 editTextView.visibility = View.GONE
 
                 // assign visibility back to popupView
-                // should now reference data class myNickName value
+                // should now reference myName.nickName value
                 nicknamePopupView.visibility = View.VISIBLE
+
+                // refresh UI
+                invalidateAll()
             }
 
             // provide feedback for any errors if applicable
