@@ -4,11 +4,7 @@
     <data>
 
         <variable
-            name="myName"
-            type="com.example.aboutme.MyName" />
-
-        <variable
-            name="myNickName"
+            name="myDataClass"
             type="com.example.aboutme.MyName" />
     </data>
 
@@ -37,7 +33,7 @@
                 style="@style/NameStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@={myName.myName}"
+                android:text="@={myDataClass.myName}"
                 tools:text="@string/name_text" />
 
             <EditText
@@ -61,7 +57,7 @@
                 style="@style/EditTextStyle"
                 android:layout_width="@dimen/layoutWidth_250dp"
                 android:layout_height="@dimen/layoutHeight_50dp"
-                android:text="@={myNickName.myNickName}"
+                android:text="@={myDataClass.myNickName}"
                 android:visibility="gone" />
 
             <ScrollView

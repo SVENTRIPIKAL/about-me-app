@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         // reference any layouts/views as objects if necessary
         // manipulate data via as-needed references
         // update data class via binder with new object data created in activity
-        binding.myName = nameObject
+        binding.myDataClass = nameObject
 
         // button onClickListener
         binding.doneButton.setOnClickListener {
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             binding.apply {
 
                 // transfer editText.text to popUpView.text via data class object
-                myNickName = nameObject.copy(
+                myDataClass = nameObject.copy(
                     myNickName = editTextView.editableText.toString()
                 )
 
